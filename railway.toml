@@ -1,0 +1,7 @@
+# railway.toml — Railway deployment configuration
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "python scanner.py"
+restartPolicyType = "always"
